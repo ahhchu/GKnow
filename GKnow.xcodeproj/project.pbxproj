@@ -11,6 +11,7 @@
 		624BE9B22C810E3900612D23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624BE9B12C810E3900612D23 /* ContentView.swift */; };
 		624BE9B42C810E3A00612D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624BE9B32C810E3A00612D23 /* Assets.xcassets */; };
 		624BE9B72C810E3A00612D23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624BE9B62C810E3A00612D23 /* Preview Assets.xcassets */; };
+		624BE9F22C81189B00612D23 /* PatientInfoInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624BE9F12C81189B00612D23 /* PatientInfoInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		624BE9B12C810E3900612D23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		624BE9B32C810E3A00612D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		624BE9B62C810E3A00612D23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		624BE9F12C81189B00612D23 /* PatientInfoInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PatientInfoInput.swift; path = ../../../../Desktop/school/cap/GKnow/GKnow/PatientInfoInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				624BE9AF2C810E3900612D23 /* GKnowApp.swift */,
+				624BE9F12C81189B00612D23 /* PatientInfoInput.swift */,
 				624BE9B12C810E3900612D23 /* ContentView.swift */,
 				624BE9B32C810E3A00612D23 /* Assets.xcassets */,
 				624BE9B52C810E3A00612D23 /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				624BE9B22C810E3900612D23 /* ContentView.swift in Sources */,
 				624BE9B02C810E3900612D23 /* GKnowApp.swift in Sources */,
+				624BE9F22C81189B00612D23 /* PatientInfoInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
