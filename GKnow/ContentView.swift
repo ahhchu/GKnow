@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {  // Add NavigationView here
+        NavigationStack {  // Add NavigationView here
             VStack {
                 Image(systemName: "testtube.2")
                     .imageScale(.large)
