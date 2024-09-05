@@ -27,7 +27,7 @@ struct PatientInfoInput: View {
                     TextField("Enter first name", text: $firstName)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                 }
-                
+                // comment
                 HStack {
                     Text("Middle Name:")
                     TextField("Enter middle name", text: $middleName)
