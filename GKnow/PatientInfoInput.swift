@@ -16,6 +16,7 @@ struct PatientInfoInput: View {
     @State private var showPatientCard: Bool = false
     @State private var isEditing: Bool = false // To track edit mode
 
+    // TEST
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             Text("Patient Information")
@@ -27,7 +28,6 @@ struct PatientInfoInput: View {
                     TextField("Enter first name", text: $firstName)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                 }
-                // tester cmment plz
                 HStack {
                     Text("Middle Name:")
                     TextField("Enter middle name", text: $middleName)
